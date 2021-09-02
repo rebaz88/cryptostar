@@ -1,0 +1,32 @@
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "Udacity project 5",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "openzeppelin-solidity": "2.3",
+    "web3": "^1.5.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebaz88/udacityp5.git"
+  },
+  "author": "Rebaz Saleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebaz88/udacityp5/issues"
+  },
+  "homepage": "https://github.com/rebaz88/udacityp5#readme"
+}
